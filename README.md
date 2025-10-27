@@ -4,7 +4,7 @@
 ## Установка:
 ### 1. Скачайте последнюю версию с гитхаба и соберите
 ```
-git clone https://github.com/void337/complexity-analyzer-plugin.git
+git clone https://github.com/void337/plugin.git
 cd complexity-analyzer-plugin
 ./gradlew buildPlugin
 ```
