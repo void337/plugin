@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.intellij' version '1.17.0'
+}
+
+group 'com.simple.plugin'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+intellij {
+    version = '2024.3.5'
+    type = 'IC'
+    plugins = ['java']
+}
+
+compileJava {
+    sourceCompatibility = '17'
+    targetCompatibility = '17'
+}
+
+patchPluginXml {
+    sinceBuild = '243'
+    untilBuild = '253.*'
+}
+
+buildSearchableOptions.enabled = false

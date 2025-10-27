@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>com.simple.plugin.complexity</id>
+    <name>Complexity Checker</name>
+    <version>1.0.0</version>
+    <vendor>Simple</vendor>
+
+    <description>
+        Simple nested loops complexity checker.
+    </description>
+
+    <depends>com.intellij.modules.java</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <localInspection
+                language="JAVA"
+                displayName="Nested loops complexity"
+                groupName="Java"
+                enabledByDefault="true"
+                level="WARNING"
+                implementationClass="com.simple.plugin.SimpleComplexityChecker"/>
+    </extensions>
+</idea-plugin>
