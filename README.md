@@ -35,6 +35,11 @@ public class SimpleComplexityChecker extends AbstractBaseJavaLocalInspectionTool
 ## Класс для теста: `test`
 Нвходится в `src\test\java\test.java`
 
+## Коммиты
+commit 86bd5eacdfdc3350018bc153229752d15e48a22c (HEAD -> master, origin/master)
+Author: Chris <technology16006@mail.ru>
+Date:   Tue Oct 28 00:01:09 2025 +0300
 
+    Plugin
 
 
