@@ -25,7 +25,7 @@ public class SimpleComplexityChecker extends AbstractBaseJavaLocalInspectionTool
                 public void visitForStatement(PsiForStatement innerLoop) {
                     holder.registerProblem(
                             outerLoop.getFirstChild(),
-                            "Сложность алгоритма O(n^2) или выше",
+                            "Algorithm complexity O(n^2) or higher",
                             ProblemHighlightType.WARNING
                     );
                 }

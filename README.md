@@ -5,7 +5,7 @@
 ### 1. Скачайте последнюю версию с гитхаба и соберите
 ```
 git clone https://github.com/void337/plugin.git
-cd complexity-analyzer-plugin
+cd plugin
 ./gradlew buildPlugin
 ```
 ### 2. File → Settings → Plugins
